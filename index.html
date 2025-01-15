@@ -404,24 +404,20 @@ img.emoji {
 </section>
 
 <br><br><br>
-<!-- Project Experices -->
+<!-- Project Experiences -->
 <section class="YK-gallery pb-5" id="gallery">
   <div class="container py-md-5 py-4 HomePageGallery">
 
     <div class="title-heading-w3 text-center mb-sm-5 mb-4">
-      <h2 class="title-small mb-1">
-        Project Experiences</h2>
+      <h2 class="title-small mb-1">Project Experiences</h2>
     </div>
 
     <div class="row">
-
+      <!-- Central Information Display -->
       <div class="col-lg-4 col-md-6 item">
         <h5 class="photo-title" style="color: lightslategray;">Central Information Display</h5>
-        <a href=""
-        data-lightbox="example-set" data-title="Project 1" class="zoom d-block" onclick="event.preventDefault()";>
-          <img class="card-img-bottom d-block"
-            src="Photo/CID.jpg"
-            alt="Card image cap">
+        <a href="#" class="zoom d-block" onclick="event.preventDefault(); openModal('Photo/CID.jpg', 'Central Information Display');">
+          <img class="card-img-bottom d-block" src="Photo/CID.jpg" alt="Central Information Display">
           <span class="overlay__hover"></span>
           <span class="hover-content">
             <span class="content">15.6 inch CID, design for Honda's newest platform car.</span>
@@ -429,13 +425,11 @@ img.emoji {
         </a>
       </div>
 
+      <!-- Next Generation Vehicle OS -->
       <div class="col-lg-4 col-md-6 item mt-md-0 mt-4">
         <h5 class="photo-title" style="color: lightslategray;">Next Generation Vehicle OS</h5>
-        <a href=""
-          data-lightbox="example-set" data-title="Project 2" class="zoom d-block" onclick="event.preventDefault()";>
-          <img class="card-img-bottom d-block"
-            src="Photo/Arene.jpg"
-            alt="Card image cap">
+        <a href="#" class="zoom d-block" onclick="event.preventDefault(); openModal('Photo/Arene.jpg', 'Next Generation Vehicle OS');">
+          <img class="card-img-bottom d-block" src="Photo/Arene.jpg" alt="Next Generation Vehicle OS">
           <span class="overlay__hover"></span>
           <span class="hover-content">
             <span class="content">Create a new OS, Arene, for Tokyo Platform.</span>
@@ -443,13 +437,11 @@ img.emoji {
         </a>
       </div>
 
+      <!-- Integrated In-Vehicle Software -->
       <div class="col-lg-4 col-md-6 item mt-lg-0 mt-4">
         <h5 class="photo-title" style="color:lightslategray;">Integrated In-Vehicle Software</h5>
-        <a href=""
-          data-lightbox="example-set" data-title="Project 3" class="zoom d-block" onclick="event.preventDefault()";>
-          <img class="card-img-bottom d-block"
-            src="Photo/SmartAccess4Car.png"
-            alt="Card image cap">
+        <a href="#" class="zoom d-block" onclick="event.preventDefault(); openModal('Photo/SmartAccess4Car.png', 'Integrated In-Vehicle Software');">
+          <img class="card-img-bottom d-block" src="Photo/SmartAccess4Car.png" alt="Integrated In-Vehicle Software">
           <span class="overlay__hover"></span>
           <span class="hover-content">
             <span class="content">A software platform, Smart Access 4 Car, provide many sub applications for Display.</span>
@@ -457,27 +449,23 @@ img.emoji {
         </a>
       </div>
 
+      <!-- HP USB -->
       <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
         <h5 class="photo-title" style="color:lightslategray;">HP USB</h5>
-        <a href=""
-          data-lightbox="example-set" data-title="Project 4" class="zoom d-block" onclick="event.preventDefault();">
-          <img class="card-img-bottom d-block"
-            src="Photo/HP USB.jpg"
-            alt="Card image cap">
+        <a href="#" class="zoom d-block" onclick="event.preventDefault(); openModal('Photo/HP USB.jpg', 'HP USB');">
+          <img class="card-img-bottom d-block" src="Photo/HP USB.jpg" alt="HP USB">
           <span class="overlay__hover"></span>
           <span class="hover-content">
-            <span class="content">Be authorized to design, produce, advertise and sell HP SSD in the worldwide scale. </span>
+            <span class="content">Be authorized to design, produce, advertise and sell HP SSD in the worldwide scale.</span>
           </span>
         </a>
       </div>
 
+      <!-- Intel SSD -->
       <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
         <h5 class="photo-title" style="color:lightslategray;">Intel SSD</h5>
-        <a href=""
-          data-lightbox="example-set" data-title="Project 5" class="zoom d-block" onclick="event.preventDefault()";>
-          <img class="card-img-bottom d-block"
-            src="Photo/Intel SSD.jpg"
-            alt="Card image cap">
+        <a href="#" class="zoom d-block" onclick="event.preventDefault(); openModal('Photo/Intel SSD.jpg', 'Intel SSD');">
+          <img class="card-img-bottom d-block" src="Photo/Intel SSD.jpg" alt="Intel SSD">
           <span class="overlay__hover"></span>
           <span class="hover-content">
             <span class="content">Promote Intel SSD into IoT industry, make the solution with each IoT development company.</span>
@@ -485,22 +473,50 @@ img.emoji {
         </a>
       </div>
 
+      <!-- Sony Video Edit System -->
       <div class="col-lg-4 col-md-6 item mt-4 pt-lg-2">
         <h5 class="photo-title" style="color: lightslategray;">Sony Video Edit System</h5>
-        <a href=""
-          data-lightbox="example-set" data-title="Project 6" class="zoom d-block" onclick="event.preventDefault()";>
-          <img class="card-img-bottom d-block"
-            src="Photo/Sobey.png"
-            alt="Card image cap">
+        <a href="#" class="zoom d-block" onclick="event.preventDefault(); openModal('Photo/Sobey.png', 'Sony Video Edit System');">
+          <img class="card-img-bottom d-block" src="Photo/Sobey.png" alt="Sony Video Edit System">
           <span class="overlay__hover"></span>
           <span class="hover-content">
-            <span class="content">Work in a sub-company of Sony Group, develop and install edit software system to Sony's clents.</span>
+            <span class="content">Work in a sub-company of Sony Group, develop and install edit software system to Sony's clients.</span>
           </span>
         </a>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Modal for Zoom-Out Effect -->
+<div id="imageModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); justify-content: center; align-items: center; z-index: 1000;">
+    <img src="" alt="" style="max-width: 90%; max-height: 90%;">
+    <span class="modal-title" style="position: absolute; top: 10px; left: 20px; font-size: 18px; color: white;"></span>
+    <span style="position: absolute; top: 10px; right: 20px; font-size: 24px; color: white; cursor: pointer;" onclick="closeModal();">&times;</span>
+</div>
+
+<script>
+    // Open Modal
+    function openModal(imageSrc, imageTitle) {
+        const modal = document.getElementById('imageModal');
+        const modalImage = modal.querySelector('img');
+        const modalTitle = modal.querySelector('.modal-title');
+
+        // Update modal content dynamically
+        modalImage.src = imageSrc;
+        modalImage.alt = imageTitle;
+        modalTitle.textContent = imageTitle;
+
+        // Display the modal
+        modal.style.display = 'flex';
+    }
+
+    // Close Modal
+    function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.style.display = 'none';
+    }
+</script>
 
 <!-- //Project Experices  -->
 
